@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load static %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+{% include "script.html" %}
+</head>
+
+<body>
+
+<div id='loading'></div>
+
+
+<div data-role="page">
+    {% include "header.html" %}
+
+<div class="control_bar">
+  <a href="#myPanel" class="ui-btn ui-btn-inline">Open</a>
+  <span class="title"> 勞資糾紛 </span>
+</div>
+<!-- /control_bar -->
+
+
+    <div data-role="content" class="part_A" data-theme="e">
+
+      <div class="part_A_nav" data-role="navbar" data-theme="c">
+        <ul>
+          <li id="part_A_navbar_one" class="highlight"><a href="#" class=" ui-btn-active">遇到問題</a></li>
+          <li id="part_A_navbar_three"><a href="#">追討流程</a></li>
+        </ul>
+      </div><!-- /navbar -->
+
+    <div class="page_A_container_of_four_parts"><!-- container of four parts -->
+    {% include "page_A_form.html" %}
+
+
+    <div class="part_A_page_3 part_A_moon part_A_navbar_three">
+
+      <div data-role='collapsible-set'>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class="close"> 5.1 先自行與老闆討論 </h2>
+          <p class='close'> 不少老闆都欺善怕惡，員工不問不爭取就搏大霧。亦有一些公司本身行政混亂，以至沒有如期給予員工應得權益。在這些情況下，你可先與老闆商量。若同時有多個同事遇上同一個問題，一起找老闆效果更好。當然，如果溝通無果的話也不要洩氣，直接致電勞工處落案即可。 </p>
+        </div>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class='close'> 5.2 爭取不果就致電勞工處落案 </h2>
+          <p class='close'> Content  Content  Content </p>
+        </div>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class='close'> 5.3 調解會會發生乜事，口供紙點寫 </h2>
+          <p class='close'> 去調解之前，你要準備一份案情陳述（口供紙），清楚說明你為該僱主工作的背景，勞資糾紛發生的經過，你認為僱主無理的依據，以及你的幾項訴求。
+          <br>
+          <br>不少朋友以為勞工處幫勞工，那麼你肯定要失望了。到了勞資關係科的調解會，勞工處職員只會要求你和僱主代表一人讓一步，而不是要求僱主按法例規定給予僱員合法權益。若雙方互不相讓的話，就正式將案件交由勞資審裁處處理。 </p>
+        </div>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class='close'> 5.4 調解不果就去勞審處落案 </h2>
+          <p class='close'> 落案好簡單，同調解會同一棟樓。同其他政府程序一樣，填表交錢搞掂。</p>
+        </div>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class='close'> 5.5 你要準備咩證據，要有咩心理準備  </h2>
+          <p class='close'> 上法庭好似好大獲咁，但其實同調解會差唔多，個官都係叫你調解，只不過惡過個調解員咁解。
+          <br>
+          <br>你要準備與案情相關的證據，例如僱傭合約、出糧記錄、上班工時記錄、與老闆通話記錄（包括whatsapp）、員工手冊等。 </p>
+        </div>
+        <div data-role='collapsible' data-collapsed='true'>
+          <h2 class='close'> 5.6 唔識搞可以揾咩人求助 </h2>
+          <p class='close'> 上述程序雖然耗時，但並不複雜。我們會鼓勵打工仔自行準備口供紙和證據，學會保障自己不被無良老闆佔便宜。但從未到過調解會或勞審的朋友會緊張就梗，唔知證據準備的夠唔夠，驚上到勞審唔識講咁，一定會想聽多d意見。呢個時候最緊要搵勞工團體幫你！
+          <br>
+          <br>職工盟：27708664
+          <br>街工：  24100360 </p>
+        </div>
+      </div><!-- collapsible-set -->
+
+    </div> <!-- part A page 3 -->
+
+    <div class="part_A_page_4 part_A_moon part_A_navbar_four part_A_box">
+        第四頁：勞法歷史故事，說明法例不是必然如此（龍爺全集）
+    </div> <!-- part A page 4 -->
+  </div> <!-- container of four parts -->
+  </div> <!-- content partA -->
+</div><!-- #page0 -->
+</body>
+</html>

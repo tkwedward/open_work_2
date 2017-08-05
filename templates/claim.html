@@ -1,0 +1,86 @@
+{% include "script.html" %}
+<div id='loading'></div>
+
+<div data-role="page">
+    {% include "header.html" %}
+
+<div class="control_bar">
+  <a href="#myPanel" class="ui-btn ui-btn-inline">Open</a>
+  <span class="title"> 工傷索償 </span>
+</div>
+
+<div data-role="content" class="part_C" data-theme="e">
+    <div class="part_C_nav" data-role="navbar" data-theme="c">
+    <ul>
+      <li id="part_C_navbar_one" class="highlight"><a href="#" class=" ui-btn-active">你是？</a></li>
+      <li id="part_C_navbar_two"><a href="#">追討流程</a></li>
+      <li id="part_C_navbar_three"><a href="#">受害故事</a></li>
+    </ul>
+  </div><!-- /navbar -->
+
+  <div class="pages part_C_box">
+    <div class="part_C_page_1 part_C_moon part_C_navbar_one">
+      <div class="part_C_q1 part_C_box">
+        1. 你是工傷者還是工傷者家屬？
+          <button class="yes"> 工傷者 </button>
+          <button class = "no"> 工傷者家屬 </button>
+      </div>
+    </div> <!-- part_C_page_1-->
+
+    <div class="part_C_q2 part_C_box">
+
+    </div> <!-- part_C_q2 -->
+
+    <div class="part_C_q3 part_C_box">
+
+    </div><!-- part_C_q3 -->
+
+
+
+
+<div class="part_C_page_2 part_C_moon part_C_navbar_two">
+  第二頁：追討流程
+  <div data-role='collapsible-set'>
+    <div data-role='collapsible' data-collapsed='true'>
+      <h2 class="close"> 受傷後 </h2>
+      <p class="close"> 馬上告知僱主和同事，並到醫院求診，同時保留病假證明和收據，作為索償的證據。 </p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true'>
+      <h2 class="close"> 報工傷 </h2>
+      <p class="close"> 僱主需在工傷發生14日內呈報勞工處，在工亡事故發生7日內呈報。 </p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true' class="fun">
+      <h2 class="close"> 工傷可獲的賠償 </h2>
+      <p class="close"> 1. 病假津貼：以受傷前一個月的工工資，或過去12個月的平均工資為基數（以對工友有利的一項為準），工友在病假期間可獲4/5工資的病假津貼。工友需保留醫生開出的病假證明副本，把正本交給僱主。
+      <br><br>2. 實報實銷的醫療費用：僱主需支付醫療費用，門診報銷每日上限為200元，住院報銷每日上限為280元。同樣地，工友需保留醫療費用收據副本，把正本交給僱主。
+      <br><br>3. 判傷錢：分為永久喪失所有工作能力和永久喪失部分工作能力兩種，具體金額按判傷結果計算。
+ </p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true' class="fun">
+      <h2 class="close"> 判傷 </h2>
+      <p class="close"> 在工友傷勢穩定後，勞工處會安排判傷，以判斷工友傷勢影響工作能力的程度，從而計算賠償金額。</p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true' class="fun">
+      <h2 class="close"> 如何申請法援 </h2>
+      <p class="close"> 很多時候，無良僱主為了減少賠償金額，往往使用惡劣手段對付工傷者，例如拖欠病假津貼等。這時候，工友可考慮透過民事訴訟索償。現時法律援助署提供普通法律援助計劃（資產上限290,380元）及法律援助輔助計劃（資產上限1,451,900元），其資產上限並不包括自住物業。申請法援詳情可參閱法援署網站。 </p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true'>
+      <h2 class="close"> 唔識搞可以搵邊個 </h2>
+      <p class="close"> 上述流程頗多，我們一方面鼓勵工友自行熟習工傷相關的程序和政策，另一方面如有任何疑問都應該求助。同時，無良僱主對付工傷者的賤招極多，從不承認僱用關係到無理解僱工傷者都要，詳情可參看下一頁《受害者故事》。遇到這些情況，千萬不要硬食，應立即致電勞工團體求助。 </p>
+    </div>
+    <div data-role='collapsible' data-collapsed='true'>
+      <h2 class="close"> 注意：文件必須一式兩份</h2>
+      <p class="close"> 工友需保留所有與工傷有關的醫生紙、收據、僱傭合約等文件，影印數份存檔，作為證據以防僱主賴帳。 </p>
+    </div>
+  </div><!-- collapsible-set -->
+</div>  <!-- part_C_page_2 -->
+
+<div class="part_C_page_3 part_C_moon part_C_navbar_three">
+    第三頁：工傷受害者故事、常見賤招及政策倡議（工權會及訪問全集）
+    工亡血債
+    {% include "title_list.html" %}
+</div>  <!-- part_C_page_3 -->
+
+  </div> <!-- end of pages -->
+</div><!-- end of content -->
+</div><!-- end of page_3 -->

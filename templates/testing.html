@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}
+  Hello, guys
+{% endblock %}
+
+{% block content %}
+  {% for object in model %}
+    {{object.pk}}
+  {% endfor %}
+{% endblock %}
